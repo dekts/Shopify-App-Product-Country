@@ -1,0 +1,55 @@
+@import url("http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.min.css");
+html {
+    font-size: 18px;
+}
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #555;
+    background-color: #EEEEEE;
+}
+div.container{
+    background: #ffffff;
+    padding-top: 20px;
+}
+h4.panel-title{
+    color: #3C94CA;
+}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #333;
+}
+.navbar{
+    border-radius: 0;
+}
+.navbar-inverse{
+    background-image: none;
+    margin-bottom: 0px;
+    background-color: #000000;
+}
+div.panel-heading{
+    background-color: #D9EDF7;
+}
+label{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+select.form-control{
+    width: auto;
+    float: left;
+}
+div.once{
+    margin-bottom: 10px;
+}
+input[type="submit"].devat {
+    margin-left: 5px;
+}
+/*img#image{
+    border: 7px solid gainsboro;
+    padding: 15px;
+}*/
