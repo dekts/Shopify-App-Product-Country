@@ -12,7 +12,7 @@
     $countries = $shopify('GET /admin/countries.json', array());
     //print_r($countries);
     //die;
-    
+
     $products = $shopify('GET /admin/products.json', array('published_status' => 'published'));
     //print_r($products);die;
 ?>
@@ -34,7 +34,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>                        
+                        <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="http://localhost/new_prj/">MetaField's for country</a>
                 </div>
@@ -49,7 +49,7 @@
         <div class="container content">
             <div class="row">
                 <div class="col-sm-8">
-                    <!--hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh-->
+                    <!--tttttttttttttttttttttttttttttt-->
                     <?php
                     foreach ($products as $value) {
                         $id = $value['id'];
